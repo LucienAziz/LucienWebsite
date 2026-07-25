@@ -6,7 +6,6 @@ import { NewsBox } from "./NewsBox";
 import { NewsItems } from "./NewsItems";
 import { ShowcaseBox } from "./ShowcaseBox";
 
-
 export function Header() {
   const [items, setItems] = useState([]);
   const [newsBox, setNewsBox] = useState([]);
@@ -37,7 +36,7 @@ export function Header() {
       setShowcase(result);
     }
     dataTake();
-  });
+  }, []);
 
   console.log(newsBox);
   return (

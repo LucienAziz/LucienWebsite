@@ -13,7 +13,7 @@ export function GameList() {
       setGameList(result);
     }
     dataTake();
-  });
+  }, []);
 
   return (
     <section className={style.gameDashboard} id="games">
