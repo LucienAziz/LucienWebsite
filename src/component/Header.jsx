@@ -38,7 +38,6 @@ export function Header() {
     dataTake();
   }, []);
 
-  console.log(newsBox);
   return (
     <header>
       <div className={styles.container}>

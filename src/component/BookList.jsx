@@ -15,6 +15,7 @@ export function BookList() {
     takeDataBook();
   }, []);
 
+  console.log(bookData);
   return (
     <section className={style.bookDashboard} id="books">
       <h1>RELEASED BOOKS</h1>
