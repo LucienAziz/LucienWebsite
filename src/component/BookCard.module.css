@@ -1,0 +1,20 @@
+.bookCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 150px;
+  aspect-ratio: 5 / 6;
+  max-width: 150px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.image {
+  border-radius: 10px;
+  max-width: 130px;
+  aspect-ratio: 1 / 1;
+}

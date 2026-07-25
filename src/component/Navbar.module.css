@@ -1,0 +1,93 @@
+.containerNavbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0f19ff;
+  padding: 0 20px;
+  border-bottom: 2px solid #1e2640ff;
+}
+
+/* no-select image */
+
+.noSelect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* navbar1 */
+
+.navbar1 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.navbar1 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.lucienLogo {
+  width: 70px;
+}
+
+/* navbar2 */
+
+.navbar2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  color: #fff;
+}
+
+/* dropdown navbar */
+
+.dropdownMenu {
+  position: absolute;
+  background-color: #0b0f19ff;
+  padding: 0 70px;
+  top: 78px;
+  right: 0;
+}
+
+.dropdownMenu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  color: #fff;
+}
+
+.dropdownMenu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.vertical {
+  width: 0;
+  height: 40px;
+  border: 2px solid #ccc;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar1 li a {
+    display: none;
+  }
+}

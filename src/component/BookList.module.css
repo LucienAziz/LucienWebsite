@@ -1,0 +1,13 @@
+.bookDashboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1050px;
+  padding-inline: 20px;
+  margin-block: 40px;
+}
+.bookList {
+  display: flex;
+  gap: 1rem;
+  padding-block: 30px;
+}

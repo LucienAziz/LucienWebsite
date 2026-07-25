@@ -1,0 +1,25 @@
+.gameDashboard {
+  width: 100%;
+  margin-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 1050px;
+  padding-inline: 20px;
+}
+.gameDashboard h1 {
+  font-size: 3rem;
+}
+.gameList {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: mandatory;
+  padding-block: 2.5rem;
+  padding-inline: 2rem;
+  background-color: #0b0f19ff;
+}
+.smallInfo {
+  color: lightgray;
+  text-align: center;
+  font-weight: 600;
+}

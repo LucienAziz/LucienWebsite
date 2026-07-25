@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-block: 40px;
+  background-color: #1e2640ff;
+  gap: 1rem;
+}
+.contact ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.contact ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.copyRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-block: 40px;
+  background-color: #0b0f19ff;
+}
